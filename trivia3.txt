@@ -1,0 +1,10 @@
+¿Cómo se importa un módulo en Python?;import nombre_del_modulo*;module nombre_del_modulo;use nombre_del_modulo;add nombre_del_modulo
+¿Qué módulo de Python se utiliza para trabajar con fechas y horas?;time;date;datetime*;clock
+¿Cómo puedes generar un número entero aleatorio en Python?;math.randint();random.randint()*;math.random();random.random()
+¿Qué es un paquete en Python?;Una función especial;Una clase especial;Una colección de módulos*;Un tipo de variable
+¿Cómo se crea un paquete en Python?;Creando una función con el nombre del paquete;Creando una clase con el nombre del paquete;Creando un archivo con el nombre del paquete;Creando un directorio con el nombre del paquete*
+¿Cómo se manejan los errores en Python?;Usando los bloques try y catch;Usando los bloques try y except*;Usando los bloques try y error;Usando los bloques try y fail
+¿Cómo se lee un archivo de texto en Python?;Usando el método .read()*;Usando el método .open();Usando el método .get();Usando el método .fetch()
+¿Cómo se escribe en un archivo de texto en Python?;Usando el método .write()*;Usando el método .put();Usando el método .add();Usando el método .append()
+¿Cuál es la manera de agregar texto a un archivo existente sin sobrescribir su contenido en Python?;Abriendo el archivo en modo 'w';Abriendo el archivo en modo 'r';Abriendo el archivo en modo 'a'*;Abriendo el archivo en modo 'x'
+¿Cómo se cierra un archivo abierto en Python?;Usando el método .end();Usando el método .close()*;Usando el método .terminate();Usando el método .finish()

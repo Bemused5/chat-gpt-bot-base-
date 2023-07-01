@@ -1,0 +1,20 @@
+¿Qué es la programación?;Un sistema operativo;Un juego de computadora;Dar instrucciones a una computadora para realizar tareas*;Una pieza de hardware de computadora
+¿Por qué Python es un lenguaje popular para aprender a programar?;Tiene una sintaxis clara y concisa*;Es solo para programadores avanzados;No se puede utilizar para el desarrollo web;No tiene una amplia biblioteca estándar
+¿Cómo puedes verificar si Python se ha instalado correctamente en tu computadora?Reinicia tu computadora;Abre tu navegador de Internet;Escribe "python --version" en tu línea de comandos o terminal*;No puedes verificarlo
+¿Cómo se agrega un nuevo elemento a una lista en Python?;lista.remove("Nuevo elemento");lista.add("Nuevo elemento");lista.append("Nuevo elemento")*;lista.insert("Nuevo elemento")
+En un diccionario en Python, ¿cómo accederías al valor asociado a la clave "Juan"?;diccionario[0];diccionario["Juan"]*;diccionario.Juan;diccionario.get("Juan")
+¿Cómo imprimirías los números del 1 al 5 utilizando un bucle "for" en Python?;for numero in range(1, 6): print(numero)*;for numero in range(1, 5): print(numero);for numero in range(5): print(numero);for numero in range(1, 5, 2): print(numero)
+¿Cómo definirías una función en Python que suma dos números?;sumar(a, b): return a + b;def sumar(a, b): a + b;def sumar(a, b): return a + b*;sumar(a, b): a + b
+¿Cómo pasarías "Juan" como argumento al parámetro "nombre" en la función "saludar"?;saludar(Juan);saludar(nombre="Juan")*;saludar(nombre: "Juan");saludar("nombre": "Juan")
+¿Cómo se importa un módulo en Python?;import nombre_del_modulo*;module nombre_del_modulo;use nombre_del_modulo;add nombre_del_modulo
+¿Cómo puedes generar un número entero aleatorio en Python?;math.randint();random.randint()*;math.random();random.random()
+¿Qué es un paquete en Python?;Una función especial;Una clase especial;Una colección de módulos*;Un tipo de variable
+¿Cómo se manejan los errores en Python?;Usando los bloques try y catch;Usando los bloques try y except*;Usando los bloques try y error;Usando los bloques try y fail
+¿Cómo se lee un archivo de texto en Python?;Usando el método .read()*;Usando el método .open();Usando el método .get();Usando el método .fetch()
+¿Cómo se escribe en un archivo de texto en Python?;Usando el método .write()*;Usando el método .put();Usando el método .add();Usando el método .append()
+¿Cómo se cierra un archivo abierto en Python?;Usando el método .end();Usando el método .close()*;Usando el método .terminate();Usando el método .finish()
+¿Qué significa NumPy?;Numeric Python;Number Python;Numerical Python*;None of the above
+En Pandas, ¿qué estructura de datos se utiliza para organizar y analizar datos de manera eficiente?;List;Dict;DataFrame*;Tuple
+¿Cómo se puede seleccionar una columna específica de un DataFrame en Pandas?;Usando la notación de corchetes y el nombre de la columna*;Usando la notación de punto y el nombre de la columna;Llamando al nombre de la columna como método del DataFrame;Ninguna de las anteriores
+¿Cómo se puede instalar la biblioteca OpenAI en Python?;Usando el comando "pip install openai"*;Usando el comando "conda install openai";Usando el comando "pip3 install openai";Usando el comando "python -m pip install openai"
+¿Qué es un prompt en el contexto de la generación de texto con la API de OpenAI?;Una palabra clave que se utiliza para filtrar los resultados de la API;Un texto inicial que la API utiliza como base para generar texto adicional*;Una instrucción que se da a la API para que comience a generar texto;Un tipo de modelo de lenguaje proporcionado por la API de OpenAI

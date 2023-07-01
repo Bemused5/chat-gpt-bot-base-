@@ -1,0 +1,10 @@
+¿Qué es la programación?;Un sistema operativo;Un juego de computadora;Dar instrucciones a una computadora para realizar tareas*;Una pieza de hardware de computadora
+¿Por qué Python es un lenguaje popular para aprender a programar?;Tiene una sintaxis clara y concisa*;Es solo para programadores avanzados;No se puede utilizar para el desarrollo web;No tiene una amplia biblioteca estándar
+¿Cómo puedes verificar si Python se ha instalado correctamente en tu computadora?;Reinicia tu computadora;Abre tu navegador de Internet;Escribe "python --version" en tu línea de comandos o terminal*;No puedes verificarlo
+¿Qué son las variables de entorno en la programación con Python?;Claves para bases de datos;Archivos de configuración de Python;Información específica del sistema operativo*;Comandos de Python
+¿Qué hace pip en Python?;Gestiona las bibliotecas de Python*;Escribe programas en Python;Actualiza tu sistema operativo;Te permite jugar juegos en Python
+¿Qué es numpy en Python?;Un tipo de variable;Un videojuego;Una biblioteca para operaciones matemáticas y científicas*;Una versión antigua de Python
+¿Qué es Node.js?;Un lenguaje de programación;Un entorno de ejecución de JavaScript*;Un navegador web;Una base de datos
+¿Cómo se instala un paquete con npm?;npm install nombre_del_paquete*;npm start nombre_del_paquete;npm run nombre_del_paquete;npm create nombre_del_paquete
+¿Cómo se indica que un archivo es de Python en Visual Studio Code?;Se guarda con la extensión ".node";Se guarda con la extensión ".py"*;Se guarda con la extensión ".javascript";Se guarda con la extensión ".npm"
+¿Cómo se puede ejecutar un código Python en Visual Studio Code?;Ejecutar el comando "run python nombre_del_archivo.py";Ejecutar el comando "python nombre_del_archivo.py" en una terminal integrada*;Simplemente haciendo doble clic en el archivo;No se puede ejecutar el código Python en Visual Studio Code

@@ -1,0 +1,10 @@
+¿Qué tipo de dato se usa en Python para almacenar texto?;Números;Listas;Cadenas de texto*;Diccionarios
+¿Cómo se agrega un nuevo elemento a una lista en Python?;lista.remove("Nuevo elemento");lista.add("Nuevo elemento");lista.append("Nuevo elemento")*;lista.insert("Nuevo elemento")
+En un diccionario en Python, ¿cómo accederías al valor asociado a la clave "Juan"?;diccionario[0];diccionario["Juan"]*;diccionario.Juan;diccionario.get("Juan")
+¿Qué bloque de código se ejecutará si la condición en una declaración "if" es falsa?;El código después de la declaración "if";El código en la declaración "else"*;El código en la declaración "elif";Ningún código se ejecutará
+¿Cómo imprimirías los números del 1 al 5 utilizando un bucle "for" en Python?;for numero in range(1, 6): print(numero)*;for numero in range(1, 5): print(numero);for numero in range(5): print(numero);for numero in range(1, 5, 2): print(numero)
+¿Cómo definirías una función en Python que suma dos números?;sumar(a, b): return a + b;def sumar(a, b): a + b;def sumar(a, b): return a + b*;sumar(a, b): a + b
+¿Qué son los parámetros en una función de Python?;Los valores que se pasan a la función cuando se invoca.;Los nombres de las variables que se definen en la declaración de la función.*;Los nombres de las variables que se utilizan dentro de la función.;Las funciones que se invocan dentro de la función.
+¿Cómo pasarías "Juan" como argumento al parámetro "nombre" en la función "saludar"?;saludar(Juan);saludar(nombre="Juan")*;saludar(nombre: "Juan");saludar("nombre": "Juan")
+¿Cómo imprimirías el número de caracteres en el nombre "Juan" utilizando una función incorporada en Python?;print(len("Juan"))*;print(length("Juan"));print(size("Juan"));print(count("Juan"))
+¿Cómo pedirías al usuario que ingrese su nombre y luego lo imprimirías en la consola en Python?;nombre = input() print(nombre)*;nombre = input("Ingrese su nombre: ") print("Hola, " + nombre);print(input("Ingrese su nombre: "));nombre = input("Hola, "); print(nombre)
