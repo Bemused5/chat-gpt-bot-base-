@@ -1785,9 +1785,52 @@ async def examen_final(ctx):
                 embed = discord.Embed(title="Lo siento :(", description="Parece que tendrás que estudiar un poco más. Respuesta incorrecta!")
                 await ctx.followup.send(embed=embed)
 
-    # Send final score
-    final_message = f"¡Examen completado! Tu puntuación final es: {score} / 10"
-    await ctx.followup.send(content=final_message)
+    # Send final score   #Actualizado 1/07/2023 (Si el usuario resulta graduado se escribira su nombre en el documento txt graduados seguido de un salto de linea)
+    if score >= 6:
+      final_message = embed.Discord(title= "Felicidades", description=f"Felicidades, has completado el examen correctamente. Ya estas listo para escribir tud primeras lineas de codigo. \n\nTu puntuacion fue: {score}")
+      embed.set_image("https://jimdo-storage.freetls.fastly.net/image/392552801/58ebd500-4915-47fb-a28e-cb55170cfa80.png?quality=80,90&auto=webp&disable=upscale&width=800&height=617&trim=0,0,0,0")
+      with open("graduados.txt", "a") as f:
+        f.write(ctx.author.name + "\n")
+    else:
+       final_message = embed.Discord(title= "Lo siento :(", description=f"Lo siento, parece que tendras que estudiar un poco mas. \n\nTu puntuacio final fue: {score}")
+    await ctx.send(embed=final_message)
+
+
+#--------------Funcion para checar a los graduados----------------------------------------------------------------------------
+def check_graduado(username):     
+    with open("graduados.txt", "r") as f:
+        graduados = f.read().splitlines() 
+    if username in graduados:
+        return True
+    else:
+        return False
+#------------------------------------------------------------------------------------------------------------------
+
+
+#--------------Comando checa si estas graduado----------------------------------------------------------------------------
+@bot.command(name="check", help="Verifica si estás graduado")
+async def check(ctx):
+    if check_graduado(ctx.author.name):
+        embed = discord.Embed(title="¡Felicidades!", description="Tu nombre de usuario ya se encuentra en la base de datos. ¡Estás graduado!")
+    else:
+        embed = discord.Embed(title="Aún no estás graduado", description="Tu usuario no se encuentra en la base de datos. Sigue estudiando y realiza el examen final para graduarte.")
+    await ctx.send(embed=embed)
+#------------------------------------------------------------------------------------------------------------------
+
+
+#--------------Checa todos los estudiantes graduados + El total de graduados-----------------------------------------------------------------
+@bot.command(name="graduados", help="Muestra la lista de graduados")
+async def graduados(ctx):
+    with open("graduados.txt", "r") as f:
+        graduados = f.read().splitlines()
+    total_graduados = len(graduados)
+    graduados_message = "Lista de graduados:\n"
+    for graduado in graduados:
+        graduados_message += f"- {graduado}\n"
+    graduados_message += f"\nTotal de graduados: {total_graduados}"
+    embed = discord.Embed(title="Graduados", description=graduados_message)
+    await ctx.send(embed=embed)
+#------------------------------------------------------------------------------------------------------------------
 
 
 bot.run(DISCORD_TOKEN)
