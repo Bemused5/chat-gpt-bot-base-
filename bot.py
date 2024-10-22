@@ -15,9 +15,7 @@ import requests
 import asyncio
 import json
 
-# Configura tu token de API de OpenAI y de discord
-OPENAI_API_KEY = "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"
-DISCORD_TOKEN = "MTEyMzY2NzQ1NzUzODgwNTg1MA.GYcu2z.uzU7hejC_Ze9g9cylP-OeIc94isrx7ACdb9K5A"
+
 
 openai.api_key = OPENAI_API_KEY
 
